@@ -1,10 +1,8 @@
-
-
-      font-weight: 500;
+  font-weight: 500;
       color: #3a5a7a;
     }
 
-    /* Footer */
+   /* Footer */
     .footer {
       margin-top: 4.5rem;
       border-top: 1px solid #dfe6ef;
@@ -17,22 +15,21 @@
       font-size: 0.95rem;
     }
 
-    .footer i {
+   .footer i {
       color: #b8860b;
       margin: 0 4px;
     }
 
-    .footer a {
+ .footer a {
       color: #1b2e44;
       text-decoration: none;
       font-weight: 500;
     }
-
     .footer a:hover {
       color: #d4af37;
     }
 
-    /* Responsive */
+ /* Responsive */
     @media (max-width: 700px) {
       .hero {
         padding: 1.8rem;
@@ -52,7 +49,6 @@
         gap: 0.8rem;
       }
     }
-
     /* Nueva sección de estrategias */
     .strategy-grid {
       display: grid;
@@ -208,8 +204,7 @@
       </ul>
       <span class="badge-gold"><i class="fas fa-bolt"></i> Alta probabilidad</span>
     </div>
-
-    <!-- Estrategia 2: Trend Following con Pullback -->
+  <!-- Estrategia 2: Trend Following con Pullback -->
     <div class="strategy-card">
       <h4><i class="fas fa-trend-up"></i> Pullback a EMA</h4>
       <span class="meta"><i class="fas fa-chart-line"></i> Seguimiento de tendencia</span>
@@ -221,8 +216,7 @@
       </ul>
       <span class="badge-gold"><i class="fas fa-arrow-up"></i> Tendencia alcista</span>
     </div>
-
-    <!-- Estrategia 3: RSI Divergencia -->
+   <!-- Estrategia 3: RSI Divergencia -->
     <div class="strategy-card">
       <h4><i class="fas fa-arrows-spin"></i> RSI Divergencia</h4>
       <span class="meta"><i class="fas fa-wave-square"></i> Reversión · 5-15 min</span>
